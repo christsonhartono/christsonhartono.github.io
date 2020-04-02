@@ -1,0 +1,133 @@
+body{
+    background-color: #D0D3D4;
+    width: 100%;
+    margin: 0;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+#nav{
+	width: 100%;
+	background-color: #003333;
+	color: white;
+	overflow: hidden;
+}
+
+#brand{
+	text-decoration: none;
+	font-size: 2vw;
+	display: inline-block;
+	width: 50%;
+	float: left;
+	color: white;
+	padding: 10px 20px;
+}
+
+#menubar{
+	width: 50%;
+	margin: 0;
+	float: left;
+	font-size: 1.5vw;
+	text-align: right;
+	list-style-type: none;
+}
+
+.menu{
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	padding: 12px 20px;
+}
+
+#main{
+	width: 100%;
+}
+
+#leftboard{
+	background-color:  #001a1a;
+	color: white;
+	width: 18%;
+	margin: 0 1% 0 0;
+	float: left;
+	min-height: 600px;
+	padding: 10px;
+}
+
+#leftboard-title{
+	width: 100%;
+	display: block;
+	color: gold;
+	text-align: center;
+}
+
+#dataForm{
+	width: 100%;
+}
+
+#dataFormatInp{
+	width: 100%;
+	background-color: #D0D3D4;
+	color: black;
+	outline: none;
+	border: 1px solid gray;
+	border-radius: 5px;
+	margin: 5px 0;
+	padding: 5px;
+}
+
+#dataUploadInp{
+	width: 100%;
+	background-color: #D35400;
+	color: white
+	outline: none;
+	border-radius: 5px;
+	margin: 5px 0;
+	padding: 5px;
+}
+
+#dataSubmitInp{
+	width: 100%;
+	background-color: #E67E22;
+	color: black;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	margin: 5px 0;
+	font-weight: bold;
+	padding: 10px;
+}
+
+#leftboard-sep{
+	width: 100%;
+	display: block;
+	text-align: center;
+	color: gold;
+}
+
+#gotoManual{
+	text-decoration: none;
+	display: block;
+	width: 100%;
+}	
+
+#gotoManual button{
+	outline: none;
+	width: 100%;
+	background-color: #E67E22;
+	border: 1px solid #E67E22;
+	border-radius: 5px;
+	margin: 5px 0;
+	font-weight: bold;
+	padding: 10px;
+}
+
+#rightboard{
+	background-color: #FBFCFC;
+	width: 78%;
+	margin: 1%;
+	float: left;
+	min-height: 600px;
+	padding: 10px;
+}
