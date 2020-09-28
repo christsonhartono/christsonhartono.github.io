@@ -10108,6 +10108,7 @@ p.lead {
 #lkin:hover{
   background-color: #1b36ce;  
 }
+
 .dev-icons {
   font-size: 3rem;
 }
@@ -10115,6 +10116,7 @@ p.lead {
 .other-icon{
   display: inline-block;
   height: 3rem;
+  margin-top: 0.4rem;
 }
 
 section.resume-section {
